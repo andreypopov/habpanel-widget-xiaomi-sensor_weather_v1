@@ -3,7 +3,9 @@ Widget designed for 2x2 habpanel dashboard grid <br>
 <b>Note:</b> Use 100% of browser zoom
 <hr>
 
-![Dashboard view image](https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_view1.png "Dashboard view" | width=200)
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_view1.png?raw=true" height="200">
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_settings1.png?raw=true" height="200">
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg?raw=true" height="200">
 
 <hr>
 
@@ -43,5 +45,3 @@ HT_Pressure : strategy = everyChange, everyDay, restoreOnStartup<br>
 HT_Battery : strategy = everyChange, everyDay, restoreOnStartup<br>
 </code>
 
-![Device image](https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg =250x250)
-![Settings view image](https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_settings1.png?raw=true =250x250)
