@@ -2,11 +2,15 @@
 Widget designed for 2x2 habpanel dashboard grid <br>
 <b>Note:</b> Use 100% of browser zoom
 <hr>
-
-<img style="float:left;" src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_view1.png?raw=true" height="200">
-<img style="float:left;" src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_settings1.png?raw=true" height="200">
-<img style="float:left;" src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg?raw=true" height="200">
-
+<span style="float:left;">
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_view1.png?raw=true" height="200">
+</span>
+<span style="float:left;">
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_settings1.png?raw=true" height="200">
+</span>
+<span style="float:left;">
+<img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg?raw=true" height="200">
+</span>
 <hr style="clear:both;">
 
 
