@@ -5,7 +5,6 @@ Widget designed for 2x2 habpanel dashboard grid <br>
 
 <img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/widget_view1.png?raw=true" height="200">
 
-<hr style="clear:both;">
 <br>
 <br>
 <b>things/*.things</b> file:<br>
@@ -51,4 +50,6 @@ HT_Battery : strategy = everyChange, everyDay, restoreOnStartup</pre>
 
 <hr>
 Feel free to donate for new devices and some beer<br>
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQCYQ3WC7F75N)
+
