@@ -12,7 +12,6 @@ Widget designed for 2x2 habpanel dashboard grid <br>
 Thing mihome:sensor_weather_v1:YOUR ID "Xiaomi Temperature Sensor" [itemId="YOUR ID"]
 </pre>
 <br>
-<br>
 <b>items/*.items</b> file:<br>
 <pre>//Xiaomi Temperature and Humidity Sensor
 Number HT_Temperature "Temperature" <temperature> { channel="mihome:sensor_weather_v1:YOUR ID:temperature" }
@@ -22,7 +21,6 @@ Number HT_Battery "Battery" <battery> { channel="mihome:sensor_weather_v1:YOUR I
 Switch HT_BatteryLow "Battery Low" <energy> { channel="mihome:sensor_weather_v1:YOUR ID:lowBattery" }
 </pre>
 <br>
-<br>
 <b>sitemaps/*.sitemap</b> file:<br>
 <pre>Frame label="Xiaomi Huidity Sensor" {
 &nbsp;&nbsp;&nbsp;Text item=HT_Temperature label="Temperature [%.1f °C]"
@@ -30,7 +28,6 @@ Switch HT_BatteryLow "Battery Low" <energy> { channel="mihome:sensor_weather_v1:
 &nbsp;&nbsp;&nbsp;Text item=HT_Pressure label="Pressure [%.1f kPa]" icon="pressure"
 &nbsp;&nbsp;&nbsp;Text item=HT_Battery label="Battery [%s %%]"
 }</pre>
-<br>
 <br>
 <b>persistence/mysql.persist</b> file:<br>
 <pre>HT_Temperature : strategy = everyChange, everyDay, restoreOnStartup
@@ -47,7 +44,6 @@ HT_Battery : strategy = everyChange, everyDay, restoreOnStartup</pre>
 <img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg?raw=true" height="400">
 </span>
 
-<br>
 <hr>
 
 Feel free to donate for new devices and some beer<br>
