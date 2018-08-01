@@ -15,13 +15,13 @@ Thing mihome:sensor_weather_v1:YOUR ID "Xiaomi Temperature Sensor" [itemId="YOUR
 <br>
 <br>
 <b>items/*.items</b> file:<br>
-<code>//Xiaomi Temperature and Humidity Sensor<br>
+<pre>//Xiaomi Temperature and Humidity Sensor<br>
 Number HT_Temperature "Temperature" <temperature> { channel="mihome:sensor_weather_v1:YOUR ID:temperature" }<br>
 Number HT_Humidity "Humidity" <humidity> { channel="mihome:sensor_weather_v1:YOUR ID:humidity" }<br>
 Number HT_Pressure "Pressure"  { channel="mihome:sensor_weather_v1:YOUR ID:pressure" }<br>
 Number HT_Battery "Battery" <battery> { channel="mihome:sensor_weather_v1:YOUR ID:batteryLevel" }<br>
 Switch HT_BatteryLow "Battery Low" <energy> { channel="mihome:sensor_weather_v1:YOUR ID:lowBattery" }<br>
-</code>
+</pre>
 <br>
 <br>
 <b>sitemaps/*.sitemap</b> file:<br>
@@ -47,3 +47,13 @@ HT_Battery : strategy = everyChange, everyDay, restoreOnStartup<br></code>
 <span style="float:left;">
 <img src="https://github.com/andreypopov/habpanel-widget-xiaomi-sensor_weather_v1/blob/master/readme/device.jpg?raw=true" height="200">
 </span>
+
+
+<hr>
+Feel free to donate for new devices and some beer
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VQCYQ3WC7F75N">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
